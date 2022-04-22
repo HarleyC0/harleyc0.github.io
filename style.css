@@ -1,4 +1,79 @@
-h1 {
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+/*-------------HEADER-----------------*/
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+}
+
+header h1 {
+    text-align: left;
+    margin: 1vw 0px 1vw 2.5vw;
+    padding: 0px;
+    font-size: 2rem;
+}
+/*-------------Nav Main-----------------*/
+#nav-main {
+    list-style-type: disc;
+    color: black;
+    margin: 0rem;
+    position: fixed;
+    right: 4vw;
+    top: 14vw;
+    color: yellow;
+    font-size: 2.5rem;
+}
+
+#nav-main li {
+    margin: 1rem;
+}
+
+/*-------------Sections-----------------*/
+.section {
+    margin: 2rem;
+}
+
+.section1 {
+    height: 140vh;
+    margin-top: 4rem;
+    background-image: url(/img/CivilEnginer.jpg);
+    background-size:contain;
+    background-attachment: fixed;
+}
+
+.section1 div {
+    display: inline-block;
+    margin-left: 20%;
     text-align: center;
-    background-color: aquamarine;
+    position: relative;
+    top: 35vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.section1 h1 {
+    font-size: 6rem;
+}
+
+.section1 h2 {
+    font-size: 4rem;
+
+}
+
+.section2 {
+    background-color: aqua;
 }

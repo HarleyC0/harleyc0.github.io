@@ -13,11 +13,9 @@ header {
     position: fixed;
     top: 0px;
     left: 0px;
-    width: 100%;
-    background-color: white;
-    /*background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(20px);*/
-    z-index: 2;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
 }
 
 header h1 {
@@ -29,8 +27,7 @@ header h1 {
 /*-------------Nav Main-----------------*/
 #nav-main {
     position: fixed;
-    right: 4rem;
-    top: 14vw;
+    right: 20px;
 }
 
 #nav-main a {
@@ -42,7 +39,8 @@ header h1 {
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    margin-top: 40px;
+    margin: 40px auto;
+    z-index: 2;
 }
 
 #nav-main a:hover {
@@ -51,8 +49,6 @@ header h1 {
 }
 
 /*-------------Sections-----------------*/
-.section {
-}
 
 .separador {
     width: 70px;
@@ -64,8 +60,10 @@ header h1 {
 /* S1 */
 
 .section1 {
-    height: 120vh;
-    margin-top: 4rem;
+    font-size: 20px;
+    height: 60vh;
+    width: auto;
+    margin-top: 3rem;
     background-image: url(/img/CivilEnginer.jpg);
     background-size: contain;
     background-attachment: fixed;
@@ -75,31 +73,31 @@ header h1 {
     width: 60vw;
     text-align: center;
     position: relative;
-    top: 35vh;
+    top: 15vh;
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(5px);
     border-radius: 10px;
     padding: 1rem;
     margin: auto;
-    font-size: 3rem;
+    font-size: 1.2em;
 }
 
 .section1 h2 {
-    font-size: 2rem;
-
+    font-size: 1.2em;
 }
 
 /* S2 */
 
 .section2 {
-    height: 80vh;
+    font-size: 16px;
+    height: 650px;
     /*background-color: bisque;*/
 }
 
 #h2-s2 {
     margin: 4rem auto;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.5em;
 }
 
 .section2 .section2-div {
@@ -115,9 +113,9 @@ header h1 {
 
 #cv {
     margin:auto;
-    margin-top: 4rem;
+    margin-top: 1em;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .section2 .section2-div:hover {
@@ -140,8 +138,8 @@ header h1 {
 /* S3 */
 
 .section3 {
-    height: 100vh;
-    background-image: url(/img/cover\ section\ 3.jpg);
+    height: 60vh;
+    background-image: url(/img/CivilEnginer.jpg);
     background-size: contain;
     background-attachment: fixed;
     display: flex;
@@ -153,20 +151,25 @@ header h1 {
     backdrop-filter: blur(10px);
     border-radius: 10px;
     text-align: center;
-    margin: 50px;
+    margin: 5px;
     margin-top: 8rem;
     height: 50%;
-    padding: 2rem;
+    padding: 5px;
 }
 
-.section3-div li {
+.section3 h3 {
+    font-size: 20px;
+}
+
+.section3 li {
     list-style: none;
+    font-size: 15px;
 }
 
 /* S4 */
 
 .section4 {
-    height: 100vh;
+    height: 60vh;
     background-color: aquamarine;
 }
 
@@ -180,7 +183,7 @@ header h1 {
 /* Footer */
 
 footer {
-    height: 50vh;
+    height: 20vh;
     background-color: rgb(7, 122, 84);
 }
 

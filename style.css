@@ -14,8 +14,10 @@ header {
     top: 0px;
     left: 0px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);
+    background-color: white;
+    /*background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);*/
+    z-index: 2;
 }
 
 header h1 {
@@ -28,11 +30,10 @@ header h1 {
 #nav-main {
     list-style-type: disc;
     color: black;
-    margin: 0rem;
     position: fixed;
-    right: 4vw;
+    right: -1vw;
     top: 14vw;
-    color: yellow;
+    color: black;
     font-size: 2.5rem;
 }
 
@@ -42,20 +43,27 @@ header h1 {
 
 /*-------------Sections-----------------*/
 .section {
-    margin: 2rem;
 }
 
+.separador {
+    width: 70px;
+    margin: 50px auto;
+    transform: rotate(90deg);
+    border-right: 1px;
+}
+
+/* S1 */
+
 .section1 {
-    height: 140vh;
+    height: 120vh;
     margin-top: 4rem;
     background-image: url(/img/CivilEnginer.jpg);
-    background-size:contain;
+    background-size: contain;
     background-attachment: fixed;
 }
 
 .section1 div {
-    display: inline-block;
-    margin-left: 20%;
+    width: 60vw;
     text-align: center;
     position: relative;
     top: 35vh;
@@ -63,17 +71,38 @@ header h1 {
     backdrop-filter: blur(5px);
     border-radius: 10px;
     padding: 1rem;
-}
-
-.section1 h1 {
-    font-size: 6rem;
+    margin: auto;
+    font-size: 3rem;
 }
 
 .section1 h2 {
-    font-size: 4rem;
+    font-size: 2rem;
 
 }
 
+/* S2 */
+
 .section2 {
-    background-color: aqua;
+    height: 80vh;
+    /*background-color: aquamarine;*/
+}
+
+#h2-s2 {
+    /*background-color: blue;*/
+    margin: 4rem auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.section2 div {
+    text-align: center;
+    margin: 20px auto;
+    /*background-color: aqua;*/
+}
+
+#cv {
+    /*background-color: blue;*/
+    margin: 4rem auto;
+    text-align: center;
+    font-size: 1rem;
 }

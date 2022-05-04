@@ -1,4 +1,14 @@
 
+/*Paleta de Colores
+    #D8CEC1 beige
+    #D2C7BA zizal
+    #373F4F Bright Gray
+    #ADB1B6 bombay
+    #14141C casi black
+    
+*/
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,7 +16,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 body {
@@ -20,7 +30,7 @@ header {
     top: 0px;
     left: 0px;
     width: 100vw;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     z-index: 3;
 }
 
@@ -83,8 +93,8 @@ header h1 {
     font-size: 21px;
     height: 50vh;
     width: auto;
-    margin-top: 3rem;
-    background-image: url(/img/CivilEnginer.jpg);
+    margin-top: 2.5rem;
+    background-color: #14141C;
     background-size: contain;
     background-attachment: fixed;
     overflow: hidden;
@@ -95,8 +105,7 @@ header h1 {
     text-align: center;
     position: relative;
     top: 15vh;
-    background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(5px);
+    background-color: white;
     border-radius: 10px;
     padding: 1rem;
     margin: auto;
@@ -185,7 +194,8 @@ header h1 {
 }
 
 .section2-div:hover {
-    background-color: rgba(187, 187, 187, 1);
+    background-color:  #14141C;
+    color: white;
     border-radius: 10px;
     animation-name: educacion;
     animation-duration: 2s;
@@ -214,7 +224,7 @@ header h1 {
 
 .section3 {
     height: 60vh;
-    background-image: url(/img/CivilEnginer.jpg);
+    background-color:  #14141C;
     background-size: contain;
     background-attachment: fixed;
     overflow: hidden;
@@ -223,8 +233,7 @@ header h1 {
 }
 
 .section3-div {
-    background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     text-align: center;
     margin: 5px;
@@ -266,12 +275,7 @@ header h1 {
 }
 
 .section4-div {
-    background-image: linear-gradient(
-        8deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    ),
-    url(/img/CivilEnginer.jpg);
+    background-color:  #14141C;
     padding: 20px 0px;
     background-size: cover;
     margin: 20px;
